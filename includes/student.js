@@ -4,10 +4,10 @@ class Student{
         grades = [];
         classes = [];
     }
-    addClass(){
+    addClass(class){
 
     }
-    addGrade(){
+    addGrade(grade){
 
     }
 }
