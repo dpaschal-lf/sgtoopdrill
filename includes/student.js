@@ -1,13 +1,13 @@
 class Student{
-    constructor(){
-        name = null;
-        grades = [];
-        classes = [];
+    constructor(name){
+        this.name = name;
+        this.grades = [];
+        this.classes = [];
     }
-    addClass(){
-
+    addClass(Class){
+        this.classes.push(Class);
     }
-    addGrade(){
-
+    addGrade(Grade){
+        this.grades.push(Grade);
     }
 }
