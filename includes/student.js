@@ -5,9 +5,9 @@ class Student{
         this.classes = [];
     }
     addClass(Class){
-        this.classes.push(course);
+        this.classes.push(Class);
     }
     addGrade(Grade){
-        this.grades.push(grade);
+        this.grades.push(Grade);
     }
 }
