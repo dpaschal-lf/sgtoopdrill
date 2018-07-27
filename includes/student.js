@@ -4,10 +4,10 @@ class Student{
         this.grades = [];
         this.classes = [];
     }
-    addClass(Class){
+    addClass(course){
         this.classes.push(course);
     }
-    addGrade(Grade){
+    addGrade(grade){
         this.grades.push(grade);
     }
 }
