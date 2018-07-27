@@ -1,4 +1,4 @@
-class Class(){
+class Class{
 	constructor(){
 		
 		this.roster =[];
