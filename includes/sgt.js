@@ -11,7 +11,8 @@ class SGT{
      * @return none
      */
     addClass(name){
-
+        var course = new Class(name);
+        this.Classes.push(course);
     }
 
     /**
@@ -20,7 +21,8 @@ class SGT{
      * @return none
      */
     addStudent(name){
-
+        var student = new Student(name)
+        this.students.push(student);
     }
 
     /**
