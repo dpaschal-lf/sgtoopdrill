@@ -1,8 +1,10 @@
 class Class{
 	constructor(name){
-		
-		this.roster =[];
+		this.roster = [];
 		this.name = name;
-		this.grades=[];
+		this.grades= [];
+	}
+	addStudent(studentObject){
+		this.roster.push(studentObject);
 	}
 }
