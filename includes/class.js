@@ -1,8 +1,8 @@
-class Class(){
-	constructor(){
+class Class{
+	constructor(name){
 		
 		this.roster =[];
-		this.name ='';
+		this.name = name;
 		this.grades=[];
 	}
 }
